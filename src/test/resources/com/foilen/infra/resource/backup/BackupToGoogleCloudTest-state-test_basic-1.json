@@ -149,10 +149,7 @@ OZolTL9Evfdaqwasfbn/vhol\
     }
   }, {
     "resource" : "DnsEntry | f1.example.com / A | 127.0.0.1",
-    "links" : [ {
-      "type" : "MANAGES",
-      "to" : "Domain | f1.example.com | Domain for f1.example.com"
-    } ],
+    "links" : [ ],
     "tags" : [ ],
     "content" : {
       "details" : "127.0.0.1",
@@ -165,10 +162,7 @@ OZolTL9Evfdaqwasfbn/vhol\
     }
   }, {
     "resource" : "DnsEntry | f2.example.com / A | 127.0.0.2",
-    "links" : [ {
-      "type" : "MANAGES",
-      "to" : "Domain | f2.example.com | Domain for f2.example.com"
-    } ],
+    "links" : [ ],
     "tags" : [ ],
     "content" : {
       "details" : "127.0.0.2",
@@ -178,48 +172,6 @@ OZolTL9Evfdaqwasfbn/vhol\
       "resourceDescription" : "127.0.0.2",
       "resourceName" : "f2.example.com / A",
       "type" : "A"
-    }
-  }, {
-    "resource" : "Domain | example.com | Domain for example.com",
-    "links" : [ ],
-    "tags" : [ ],
-    "content" : {
-      "meta" : { },
-      "name" : "example.com",
-      "resourceCategory" : "NET",
-      "resourceDescription" : "Domain for example.com",
-      "resourceName" : "example.com",
-      "reverseName" : "com.example"
-    }
-  }, {
-    "resource" : "Domain | f1.example.com | Domain for f1.example.com",
-    "links" : [ {
-      "type" : "MANAGES",
-      "to" : "Domain | example.com | Domain for example.com"
-    } ],
-    "tags" : [ ],
-    "content" : {
-      "meta" : { },
-      "name" : "f1.example.com",
-      "resourceCategory" : "NET",
-      "resourceDescription" : "Domain for f1.example.com",
-      "resourceName" : "f1.example.com",
-      "reverseName" : "com.example.f1"
-    }
-  }, {
-    "resource" : "Domain | f2.example.com | Domain for f2.example.com",
-    "links" : [ {
-      "type" : "MANAGES",
-      "to" : "Domain | example.com | Domain for example.com"
-    } ],
-    "tags" : [ ],
-    "content" : {
-      "meta" : { },
-      "name" : "f2.example.com",
-      "resourceCategory" : "NET",
-      "resourceDescription" : "Domain for f2.example.com",
-      "resourceName" : "f2.example.com",
-      "reverseName" : "com.example.f2"
     }
   }, {
     "resource" : "Machine | f1.example.com | f1.example.com (127.0.0.1)",
